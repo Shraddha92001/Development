@@ -3,7 +3,7 @@ function sum(num1, num2, callbackFunction){
     return result
 }
 function callbackFunction(data){
-    console.log("this is callback function" , + data);
+    console.log("this is callback function:" , + data);
 }
 
 console.log(sum(10,50, callbackFunction));
