@@ -17,3 +17,12 @@ console.log(  currentDate.getTime());
 
 currentDate.setFullYear(2022)
 console.log("after setfullYear :: " + currentDate);
+
+
+currentDate.setFullYear(2025);
+currentDate.setMonth(6); // July (zero-based)
+currentDate.setDate(15);
+currentDate.setHours(12);
+currentDate.setMinutes(30);
+currentDate.setSeconds(0);
+currentDate.setMilliseconds(0);
